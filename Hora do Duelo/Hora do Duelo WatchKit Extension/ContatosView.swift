@@ -55,7 +55,7 @@ struct ContatosView: View {
                 
                 BotãoDeContatos(nome: "Alexandra", emoji: "✌️")
                 
-                BotãoDeContatoNovo(nome: "Felipe")
+                BotãoDeContatoNovo(nome: "Michel Temer")
             }
         }
     }
