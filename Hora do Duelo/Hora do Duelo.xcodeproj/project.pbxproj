@@ -27,6 +27,8 @@
 		A8409C672665596500DE884D /* DueloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8409C662665596500DE884D /* DueloView.swift */; };
 		A8409C6C2665662900DE884D /* BotaoMestre.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8409C6B2665662900DE884D /* BotaoMestre.swift */; };
 		A8409C712665747100DE884D /* ResultadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8409C702665747100DE884D /* ResultadoView.swift */; };
+		CB6ADCD726695DDB0097D9EA /* AcelerometerFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ADCD626695DDB0097D9EA /* AcelerometerFeature.swift */; };
+		CB6ADCD926695DE80097D9EA /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ADCD826695DE80097D9EA /* MotionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,8 @@
 		A8409C662665596500DE884D /* DueloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueloView.swift; sourceTree = "<group>"; };
 		A8409C6B2665662900DE884D /* BotaoMestre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotaoMestre.swift; sourceTree = "<group>"; };
 		A8409C702665747100DE884D /* ResultadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultadoView.swift; sourceTree = "<group>"; };
+		CB6ADCD626695DDB0097D9EA /* AcelerometerFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcelerometerFeature.swift; sourceTree = "<group>"; };
+		CB6ADCD826695DE80097D9EA /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 		A8409C3F266553C400DE884D /* Hora do Duelo WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				CB6ADCD626695DDB0097D9EA /* AcelerometerFeature.swift */,
 				A8409C40266553C400DE884D /* HostingController.swift */,
 				A8409C42266553C400DE884D /* ContentView.swift */,
 				A8409C44266553C400DE884D /* ExtensionDelegate.swift */,
@@ -159,6 +164,7 @@
 				A8409C662665596500DE884D /* DueloView.swift */,
 				A8409C6B2665662900DE884D /* BotaoMestre.swift */,
 				A837CEFC26695317005B7B7D /* AnimacaoDados.swift */,
+				CB6ADCD826695DE80097D9EA /* MotionManager.swift */,
 			);
 			path = "Hora do Duelo WatchKit Extension";
 			sourceTree = "<group>";
@@ -300,6 +306,7 @@
 			files = (
 				0E695EB4266957A2009E0412 /* ModeSelectionView.swift in Sources */,
 				55231556266951820026C6B2 /* TelaDoDado.swift in Sources */,
+				CB6ADCD726695DDB0097D9EA /* AcelerometerFeature.swift in Sources */,
 				A8409C43266553C400DE884D /* ContentView.swift in Sources */,
 				A8409C6C2665662900DE884D /* BotaoMestre.swift in Sources */,
 				A8409C712665747100DE884D /* ResultadoView.swift in Sources */,
@@ -312,6 +319,7 @@
 				A8409C49266553C400DE884D /* NotificationView.swift in Sources */,
 				A837CEFD26695317005B7B7D /* AnimacaoDados.swift in Sources */,
 				A8409C4B266553C400DE884D /* ComplicationController.swift in Sources */,
+				CB6ADCD926695DE80097D9EA /* MotionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
