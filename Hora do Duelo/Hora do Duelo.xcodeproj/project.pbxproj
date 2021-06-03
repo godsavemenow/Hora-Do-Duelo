@@ -21,6 +21,9 @@
 		A8409C4B266553C400DE884D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8409C4A266553C400DE884D /* ComplicationController.swift */; };
 		A8409C4D266553C400DE884D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8409C4C266553C400DE884D /* Assets.xcassets */; };
 		A8409C50266553C400DE884D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8409C4F266553C400DE884D /* Preview Assets.xcassets */; };
+		A8409C672665596500DE884D /* DueloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8409C662665596500DE884D /* DueloView.swift */; };
+		A8409C6C2665662900DE884D /* BotaoMestre.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8409C6B2665662900DE884D /* BotaoMestre.swift */; };
+		A8409C712665747100DE884D /* ResultadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8409C702665747100DE884D /* ResultadoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +87,9 @@
 		A8409C4F266553C400DE884D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8409C51266553C400DE884D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8409C52266553C400DE884D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A8409C662665596500DE884D /* DueloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueloView.swift; sourceTree = "<group>"; };
+		A8409C6B2665662900DE884D /* BotaoMestre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotaoMestre.swift; sourceTree = "<group>"; };
+		A8409C702665747100DE884D /* ResultadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultadoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +147,9 @@
 				A8409C51266553C400DE884D /* Info.plist */,
 				A8409C52266553C400DE884D /* PushNotificationPayload.apns */,
 				A8409C4E266553C400DE884D /* Preview Content */,
+				A8409C702665747100DE884D /* ResultadoView.swift */,
+				A8409C662665596500DE884D /* DueloView.swift */,
+				A8409C6B2665662900DE884D /* BotaoMestre.swift */,
 			);
 			path = "Hora do Duelo WatchKit Extension";
 			sourceTree = "<group>";
@@ -281,11 +290,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8409C43266553C400DE884D /* ContentView.swift in Sources */,
+				A8409C6C2665662900DE884D /* BotaoMestre.swift in Sources */,
+				A8409C712665747100DE884D /* ResultadoView.swift in Sources */,
 				5530126D26655B9600A864F8 /* HomeView.swift in Sources */,
 				A8409C41266553C400DE884D /* HostingController.swift in Sources */,
 				5530126F2665625F00A864F8 /* ContatosView.swift in Sources */,
 				A8409C47266553C400DE884D /* NotificationController.swift in Sources */,
 				A8409C45266553C400DE884D /* ExtensionDelegate.swift in Sources */,
+				A8409C672665596500DE884D /* DueloView.swift in Sources */,
 				A8409C49266553C400DE884D /* NotificationView.swift in Sources */,
 				A8409C4B266553C400DE884D /* ComplicationController.swift in Sources */,
 			);
