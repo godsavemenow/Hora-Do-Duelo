@@ -19,13 +19,7 @@ struct HomeView: View {
             
             Spacer()
             
-            Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                Text("Sua vez!")
-            }.background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)), Color(#colorLiteral(red: 0.03921568627, green: 0.5176470588, blue: 1, alpha: 1))]), startPoint: .top, endPoint: .bottom))
-            .cornerRadius(40)
-            .padding(.horizontal)
-            
-            
+            BotaoMestre(texto: "Sua vez!", proximaView: ModeSelectionView())
         }
     }
 }
