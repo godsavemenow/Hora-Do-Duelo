@@ -29,6 +29,7 @@
 		A8409C672665596500DE884D /* DueloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8409C662665596500DE884D /* DueloView.swift */; };
 		A8409C6C2665662900DE884D /* BotaoMestre.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8409C6B2665662900DE884D /* BotaoMestre.swift */; };
 		A8409C712665747100DE884D /* ResultadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8409C702665747100DE884D /* ResultadoView.swift */; };
+		A850D8D226697D2300613A90 /* RoletaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A850D8D126697D2300613A90 /* RoletaView.swift */; };
 		CB6ADCD726695DDB0097D9EA /* AcelerometerFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ADCD626695DDB0097D9EA /* AcelerometerFeature.swift */; };
 		CB6ADCD926695DE80097D9EA /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ADCD826695DE80097D9EA /* MotionManager.swift */; };
 /* End PBXBuildFile section */
@@ -102,6 +103,7 @@
 		A8409C662665596500DE884D /* DueloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueloView.swift; sourceTree = "<group>"; };
 		A8409C6B2665662900DE884D /* BotaoMestre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotaoMestre.swift; sourceTree = "<group>"; };
 		A8409C702665747100DE884D /* ResultadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultadoView.swift; sourceTree = "<group>"; };
+		A850D8D126697D2300613A90 /* RoletaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoletaView.swift; sourceTree = "<group>"; };
 		CB6ADCD626695DDB0097D9EA /* AcelerometerFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcelerometerFeature.swift; sourceTree = "<group>"; };
 		CB6ADCD826695DE80097D9EA /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,6 +173,7 @@
 				A837CEFC26695317005B7B7D /* AnimacaoDados.swift */,
 				0E695EB726696229009E0412 /* AnimacaoMoeda.swift */,
 				CB6ADCD826695DE80097D9EA /* MotionManager.swift */,
+				A850D8D126697D2300613A90 /* RoletaView.swift */,
 			);
 			path = "Hora do Duelo WatchKit Extension";
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				0E695EB626695AAC009E0412 /* TelaDaMoeda.swift in Sources */,
 				A8409C6C2665662900DE884D /* BotaoMestre.swift in Sources */,
 				A8409C712665747100DE884D /* ResultadoView.swift in Sources */,
+				A850D8D226697D2300613A90 /* RoletaView.swift in Sources */,
 				5530126D26655B9600A864F8 /* HomeView.swift in Sources */,
 				A8409C41266553C400DE884D /* HostingController.swift in Sources */,
 				5530126F2665625F00A864F8 /* ContatosView.swift in Sources */,
