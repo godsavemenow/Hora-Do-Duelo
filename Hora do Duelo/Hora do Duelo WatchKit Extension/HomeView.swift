@@ -19,7 +19,7 @@ struct HomeView: View {
             
             Spacer()
             
-            BotaoMestre(texto: "Sua vez!", proximaView: ModeSelectionView())
+            //BotaoMestre(texto: "Sua vez!", proximaView: ModeSelectionView())
         }
     }
 }
