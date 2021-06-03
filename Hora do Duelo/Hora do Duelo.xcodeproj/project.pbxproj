@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5530126D26655B9600A864F8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530126C26655B9600A864F8 /* HomeView.swift */; };
+		5530126F2665625F00A864F8 /* ContatosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530126E2665625F00A864F8 /* ContatosView.swift */; };
 		A8409C2D266553C300DE884D /* Hora do Duelo WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A8409C2C266553C300DE884D /* Hora do Duelo WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A8409C33266553C300DE884D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8409C31266553C300DE884D /* Interface.storyboard */; };
 		A8409C35266553C400DE884D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8409C34266553C400DE884D /* Assets.xcassets */; };
@@ -67,6 +69,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5530126C26655B9600A864F8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5530126E2665625F00A864F8 /* ContatosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosView.swift; sourceTree = "<group>"; };
 		A8409C28266553C300DE884D /* Hora do Duelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hora do Duelo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8409C2C266553C300DE884D /* Hora do Duelo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hora do Duelo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8409C32266553C300DE884D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 				A8409C40266553C400DE884D /* HostingController.swift */,
 				A8409C42266553C400DE884D /* ContentView.swift */,
 				A8409C44266553C400DE884D /* ExtensionDelegate.swift */,
+				5530126C26655B9600A864F8 /* HomeView.swift */,
+				5530126E2665625F00A864F8 /* ContatosView.swift */,
 				A8409C46266553C400DE884D /* NotificationController.swift */,
 				A8409C48266553C400DE884D /* NotificationView.swift */,
 				A8409C4A266553C400DE884D /* ComplicationController.swift */,
@@ -286,7 +292,9 @@
 				A8409C43266553C400DE884D /* ContentView.swift in Sources */,
 				A8409C6C2665662900DE884D /* BotaoMestre.swift in Sources */,
 				A8409C712665747100DE884D /* ResultadoView.swift in Sources */,
+				5530126D26655B9600A864F8 /* HomeView.swift in Sources */,
 				A8409C41266553C400DE884D /* HostingController.swift in Sources */,
+				5530126F2665625F00A864F8 /* ContatosView.swift in Sources */,
 				A8409C47266553C400DE884D /* NotificationController.swift in Sources */,
 				A8409C45266553C400DE884D /* ExtensionDelegate.swift in Sources */,
 				A8409C672665596500DE884D /* DueloView.swift in Sources */,
