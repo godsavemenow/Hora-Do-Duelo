@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E695EB4266957A2009E0412 /* ModeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695EB3266957A2009E0412 /* ModeSelectionView.swift */; };
+		0E695EB626695AAC009E0412 /* TelaDaMoeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695EB526695AAC009E0412 /* TelaDaMoeda.swift */; };
 		55231556266951820026C6B2 /* TelaDoDado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55231555266951820026C6B2 /* TelaDoDado.swift */; };
 		5530126D26655B9600A864F8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530126C26655B9600A864F8 /* HomeView.swift */; };
 		5530126F2665625F00A864F8 /* ContatosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530126E2665625F00A864F8 /* ContatosView.swift */; };
@@ -75,6 +76,7 @@
 
 /* Begin PBXFileReference section */
 		0E695EB3266957A2009E0412 /* ModeSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeSelectionView.swift; sourceTree = "<group>"; };
+		0E695EB526695AAC009E0412 /* TelaDaMoeda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDaMoeda.swift; sourceTree = "<group>"; };
 		55231555266951820026C6B2 /* TelaDoDado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDoDado.swift; sourceTree = "<group>"; };
 		5530126C26655B9600A864F8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5530126E2665625F00A864F8 /* ContatosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosView.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				A8409C44266553C400DE884D /* ExtensionDelegate.swift */,
 				5530126C26655B9600A864F8 /* HomeView.swift */,
 				55231555266951820026C6B2 /* TelaDoDado.swift */,
+				0E695EB526695AAC009E0412 /* TelaDaMoeda.swift */,
 				5530126E2665625F00A864F8 /* ContatosView.swift */,
 				0E695EB3266957A2009E0412 /* ModeSelectionView.swift */,
 				A8409C46266553C400DE884D /* NotificationController.swift */,
@@ -308,6 +311,7 @@
 				55231556266951820026C6B2 /* TelaDoDado.swift in Sources */,
 				CB6ADCD726695DDB0097D9EA /* AcelerometerFeature.swift in Sources */,
 				A8409C43266553C400DE884D /* ContentView.swift in Sources */,
+				0E695EB626695AAC009E0412 /* TelaDaMoeda.swift in Sources */,
 				A8409C6C2665662900DE884D /* BotaoMestre.swift in Sources */,
 				A8409C712665747100DE884D /* ResultadoView.swift in Sources */,
 				5530126D26655B9600A864F8 /* HomeView.swift in Sources */,

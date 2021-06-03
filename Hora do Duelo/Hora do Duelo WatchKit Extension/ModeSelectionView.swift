@@ -14,8 +14,8 @@ struct ModeSelectionView: View {
             Text("Escolha um modo:")
             Spacer()
             BotaoMestre(texto: "Jo-Ken-Po", proximaView: ContatosView())
-            BotaoMestre(texto: "Dados", proximaView: ContatosView())
-            BotaoMestre(texto: "Cara ou Coroa", proximaView: ContatosView())
+            BotaoMestre(texto: "Dados", proximaView: TelaDoDado())
+            BotaoMestre(texto: "Cara ou Coroa", proximaView: TelaDaMoeda())
         }
     }
 }
