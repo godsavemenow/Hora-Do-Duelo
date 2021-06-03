@@ -9,20 +9,30 @@ import SwiftUI
 
 struct TelaDoDado: View {
     let dados = ["Dado1", "Dado2", "Dado3", "Dado4", "Dado5", "Dado6"]
+    @ObservedObject
+    var motion: MotionManager
+    
     var body: some View {
         VStack {
             Spacer()
             
-            Image(dados.randomElement()!)
-                .resizable()
-                .frame(width: 87, height: 80)
-            Spacer()
+            if motion.roll == false {
+                Image(dados.randomElement()!)
+                    .resizable()
+                    .frame(width: 87, height: 80)
+                Spacer()
+            }
+            else {
+                AnimacaoDados()
+                Spacer()
+            }
+            Text("Balance seu braço!")
         }
     }
 }
 
 struct TelaDoDado_Previews: PreviewProvider {
     static var previews: some View {
-        TelaDoDado()
+        TelaDoDado(motion: MotionManager())
     }
 }

@@ -31,8 +31,11 @@ class MotionManager: ObservableObject {
              self.y = accelerometerData.acceleration.y
              self.z = accelerometerData.acceleration.z
              }
-        if(self.x > 2.0 || self.y > 2.0 || self.z > 2.0){
+        if(self.x > abs(1.4) || self.y > abs(1.4) || self.z > abs(1.4)){
             self.roll = true
+        }
+        else {
+            self.roll = false
         }
          }
      }
