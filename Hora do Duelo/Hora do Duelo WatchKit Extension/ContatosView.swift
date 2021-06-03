@@ -48,14 +48,54 @@ public struct BotãoDeContatoNovo: View {
 struct ContatosView: View {
     var body: some View {
         ScrollView {
-            VStack {
-                BotãoDeContatos(nome: "Lucas", emoji: "🥇🥈")
+            VStack {                
+                NavigationLink(destination: TelaDoJoKenPo()){
+                    HStack {
+                        Text("Lucas")
+                        Spacer()
+                        Text("")
+                    }
+                }.frame(width: 160, height: 33)
+                .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)), Color(#colorLiteral(red: 0.03921568627, green: 0.5176470588, blue: 1, alpha: 1))]), startPoint: .leading, endPoint: .trailing))
+                .cornerRadius(40)
+                .padding(.horizontal)
+                .padding(.bottom)
                 
-                BotãoDeContatos(nome: "Eduardo", emoji: "⚔️")
+                NavigationLink(destination: TelaDoJoKenPo()){
+                    HStack {
+                        Text("Eduardo")
+                        Spacer()
+                        Text("")
+                    }
+                }.frame(width: 160, height: 33)
+                .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)), Color(#colorLiteral(red: 0.03921568627, green: 0.5176470588, blue: 1, alpha: 1))]), startPoint: .leading, endPoint: .trailing))
+                .cornerRadius(40)
+                .padding(.horizontal)
+                .padding(.bottom)
                 
-                BotãoDeContatos(nome: "Alexandra", emoji: "✌️")
+                NavigationLink(destination: TelaDoJoKenPo()){
+                    HStack {
+                        Text("Alexandra")
+                        Spacer()
+                        Text("")
+                    }
+                }.frame(width: 160, height: 33)
+                .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)), Color(#colorLiteral(red: 0.03921568627, green: 0.5176470588, blue: 1, alpha: 1))]), startPoint: .leading, endPoint: .trailing))
+                .cornerRadius(40)
+                .padding(.horizontal)
+                .padding(.bottom)
                 
-                BotãoDeContatoNovo(nome: "Michel Temer")
+                NavigationLink(destination: TelaDoJoKenPo()){
+                    HStack {
+                        Text("Felipe")
+                        Spacer()
+                        Text("")
+                    }
+                }.frame(width: 160, height: 33)
+                .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)), Color(#colorLiteral(red: 0.03921568627, green: 0.5176470588, blue: 1, alpha: 1))]), startPoint: .leading, endPoint: .trailing))
+                .cornerRadius(40)
+                .padding(.horizontal)
+                .padding(.bottom)
             }
         }
     }

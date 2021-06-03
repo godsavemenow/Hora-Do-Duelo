@@ -10,6 +10,11 @@
 		0E695EB4266957A2009E0412 /* ModeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695EB3266957A2009E0412 /* ModeSelectionView.swift */; };
 		0E695EB626695AAC009E0412 /* TelaDaMoeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695EB526695AAC009E0412 /* TelaDaMoeda.swift */; };
 		0E695EB826696229009E0412 /* AnimacaoMoeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695EB726696229009E0412 /* AnimacaoMoeda.swift */; };
+		0E695EBA26696AA8009E0412 /* TelaDoJoKenPo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695EB926696AA8009E0412 /* TelaDoJoKenPo.swift */; };
+		0E695EBC26696C23009E0412 /* BotaoJoKenPo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695EBB26696C23009E0412 /* BotaoJoKenPo.swift */; };
+		0E695EBE266974A2009E0412 /* TelaDePedra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695EBD266974A2009E0412 /* TelaDePedra.swift */; };
+		0E695EC026697CA7009E0412 /* TelaDePapel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695EBF26697CA7009E0412 /* TelaDePapel.swift */; };
+		0E695EC226697D15009E0412 /* TelaDeTesoura.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695EC126697D15009E0412 /* TelaDeTesoura.swift */; };
 		55231556266951820026C6B2 /* TelaDoDado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55231555266951820026C6B2 /* TelaDoDado.swift */; };
 		5530126D26655B9600A864F8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530126C26655B9600A864F8 /* HomeView.swift */; };
 		5530126F2665625F00A864F8 /* ContatosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530126E2665625F00A864F8 /* ContatosView.swift */; };
@@ -79,6 +84,11 @@
 		0E695EB3266957A2009E0412 /* ModeSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeSelectionView.swift; sourceTree = "<group>"; };
 		0E695EB526695AAC009E0412 /* TelaDaMoeda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDaMoeda.swift; sourceTree = "<group>"; };
 		0E695EB726696229009E0412 /* AnimacaoMoeda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimacaoMoeda.swift; sourceTree = "<group>"; };
+		0E695EB926696AA8009E0412 /* TelaDoJoKenPo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDoJoKenPo.swift; sourceTree = "<group>"; };
+		0E695EBB26696C23009E0412 /* BotaoJoKenPo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotaoJoKenPo.swift; sourceTree = "<group>"; };
+		0E695EBD266974A2009E0412 /* TelaDePedra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDePedra.swift; sourceTree = "<group>"; };
+		0E695EBF26697CA7009E0412 /* TelaDePapel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDePapel.swift; sourceTree = "<group>"; };
+		0E695EC126697D15009E0412 /* TelaDeTesoura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDeTesoura.swift; sourceTree = "<group>"; };
 		55231555266951820026C6B2 /* TelaDoDado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDoDado.swift; sourceTree = "<group>"; };
 		5530126C26655B9600A864F8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5530126E2665625F00A864F8 /* ContatosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosView.swift; sourceTree = "<group>"; };
@@ -154,7 +164,11 @@
 				A8409C42266553C400DE884D /* ContentView.swift */,
 				A8409C44266553C400DE884D /* ExtensionDelegate.swift */,
 				5530126C26655B9600A864F8 /* HomeView.swift */,
+				0E695EB926696AA8009E0412 /* TelaDoJoKenPo.swift */,
 				55231555266951820026C6B2 /* TelaDoDado.swift */,
+				0E695EBD266974A2009E0412 /* TelaDePedra.swift */,
+				0E695EBF26697CA7009E0412 /* TelaDePapel.swift */,
+				0E695EC126697D15009E0412 /* TelaDeTesoura.swift */,
 				0E695EB526695AAC009E0412 /* TelaDaMoeda.swift */,
 				5530126E2665625F00A864F8 /* ContatosView.swift */,
 				0E695EB3266957A2009E0412 /* ModeSelectionView.swift */,
@@ -168,6 +182,7 @@
 				A8409C702665747100DE884D /* ResultadoView.swift */,
 				A8409C662665596500DE884D /* DueloView.swift */,
 				A8409C6B2665662900DE884D /* BotaoMestre.swift */,
+				0E695EBB26696C23009E0412 /* BotaoJoKenPo.swift */,
 				A837CEFC26695317005B7B7D /* AnimacaoDados.swift */,
 				0E695EB726696229009E0412 /* AnimacaoMoeda.swift */,
 				CB6ADCD826695DE80097D9EA /* MotionManager.swift */,
@@ -313,17 +328,22 @@
 				0E695EB4266957A2009E0412 /* ModeSelectionView.swift in Sources */,
 				55231556266951820026C6B2 /* TelaDoDado.swift in Sources */,
 				CB6ADCD726695DDB0097D9EA /* AcelerometerFeature.swift in Sources */,
+				0E695EBE266974A2009E0412 /* TelaDePedra.swift in Sources */,
 				0E695EB826696229009E0412 /* AnimacaoMoeda.swift in Sources */,
+				0E695EBC26696C23009E0412 /* BotaoJoKenPo.swift in Sources */,
 				A8409C43266553C400DE884D /* ContentView.swift in Sources */,
 				0E695EB626695AAC009E0412 /* TelaDaMoeda.swift in Sources */,
 				A8409C6C2665662900DE884D /* BotaoMestre.swift in Sources */,
+				0E695EC026697CA7009E0412 /* TelaDePapel.swift in Sources */,
 				A8409C712665747100DE884D /* ResultadoView.swift in Sources */,
 				5530126D26655B9600A864F8 /* HomeView.swift in Sources */,
 				A8409C41266553C400DE884D /* HostingController.swift in Sources */,
 				5530126F2665625F00A864F8 /* ContatosView.swift in Sources */,
+				0E695EC226697D15009E0412 /* TelaDeTesoura.swift in Sources */,
 				A8409C47266553C400DE884D /* NotificationController.swift in Sources */,
 				A8409C45266553C400DE884D /* ExtensionDelegate.swift in Sources */,
 				A8409C672665596500DE884D /* DueloView.swift in Sources */,
+				0E695EBA26696AA8009E0412 /* TelaDoJoKenPo.swift in Sources */,
 				A8409C49266553C400DE884D /* NotificationView.swift in Sources */,
 				A837CEFD26695317005B7B7D /* AnimacaoDados.swift in Sources */,
 				A8409C4B266553C400DE884D /* ComplicationController.swift in Sources */,

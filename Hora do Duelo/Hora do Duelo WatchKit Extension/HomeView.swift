@@ -21,6 +21,7 @@ struct HomeView: View {
             
             BotaoMestre(texto: "Sua vez!", proximaView: ModeSelectionView())
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
