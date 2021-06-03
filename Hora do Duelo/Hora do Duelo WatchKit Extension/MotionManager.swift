@@ -21,6 +21,8 @@ class MotionManager: ObservableObject {
     var z: Double = 0.0
     @Published
     var roll: Bool = false
+    @Published
+    var diceface: Int = Int.random(in: 1...6)
 
     init() {
      self.motionManager = CMMotionManager()
@@ -31,11 +33,8 @@ class MotionManager: ObservableObject {
              self.y = accelerometerData.acceleration.y
              self.z = accelerometerData.acceleration.z
              }
-        if(self.x > abs(1.4) || self.y > abs(1.4) || self.z > abs(1.4)){
-            self.roll = true
-        }
-        else {
-            self.roll = false
+        if(self.x > abs(1.2) || self.y > abs(1.2) || self.z > abs(1.2)){
+                self.diceface = Int.random(in: 0...5)
         }
          }
      }

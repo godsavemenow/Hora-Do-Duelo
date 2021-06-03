@@ -16,16 +16,11 @@ struct TelaDaMoeda: View {
         VStack {
             Spacer()
             
-            if motion.roll == false {
-                Image(moeda.randomElement()!)
+                Image(moeda[motion.diceface%2])
                     .resizable()
                     .frame(width: 87, height: 80)
                 Spacer()
-            }
-            else {
-                AnimacaoMoeda()
-                Spacer()
-            }
+           
             Text("Balance seu braço!")
         }
     }

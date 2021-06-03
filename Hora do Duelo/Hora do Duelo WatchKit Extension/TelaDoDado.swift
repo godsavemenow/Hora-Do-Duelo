@@ -15,17 +15,12 @@ struct TelaDoDado: View {
     var body: some View {
         VStack {
             Spacer()
+           
+            Image(dados[motion.diceface])
+                .resizable()
+                .frame(width: 87, height: 80)
+            Spacer()
             
-            if motion.roll == false {
-                Image(dados.randomElement()!)
-                    .resizable()
-                    .frame(width: 87, height: 80)
-                Spacer()
-            }
-            else {
-                AnimacaoDados()
-                Spacer()
-            }
             Text("Balance seu braço!")
         }
     }
