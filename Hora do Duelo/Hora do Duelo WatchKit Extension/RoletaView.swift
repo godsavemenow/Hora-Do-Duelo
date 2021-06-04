@@ -12,17 +12,19 @@ struct RoletaView: View {
     @State var scrollAmount = 0.0
     
     var body: some View {
-        VStack{
+        ZStack{
         Image("roleta")
         .resizable()
-            .frame(width: 117, height: 117)
-        .rotationEffect(Angle.degrees(10*scrollAmount))
+            .frame(width: 140, height: 141)
+        .rotationEffect(Angle.degrees(20*scrollAmount))
         .animation(.easeOut)
         .focusable(true)
         .digitalCrownRotation($scrollAmount)
-        //Button("Rotate") {
-             //   self.isRotated.toggle()
-            //}
+            
+        Image("seta")
+        .resizable()
+            .frame(width: 28, height: 35)
+
         }
     }
 }
